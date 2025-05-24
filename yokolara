@@ -1,0 +1,41 @@
+import Head from 'next/head';
+
+export default function Home() {
+  return (
+    <div>
+      <Head>
+        <title>Yokolara</title>
+      </Head>
+      <main>
+        <h1>Yokolara'ya Hoş Geldiniz</h1>
+        <p>Sosyallik ve eğlencenin birleştiği yer.</p>
+      </main>
+    </div>
+  );
+}
+export default function Navbar() {
+  return (
+    <nav style={{ padding: "1rem", backgroundColor: "#111", color: "#fff" }}>
+      <h2>Yokolara</h2>
+    </nav>
+  );
+}body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+{
+  "name": "yokolara",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
+
